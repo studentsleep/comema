@@ -40,15 +40,7 @@
             }
         }
     </script>
-    <style>
-        .glass-nav { background: rgba(255, 255, 255, 0.95); backdrop-filter: blur(10px); -webkit-backdrop-filter: blur(10px); }
-        .flag-th { background-image: url('https://flagcdn.com/w20/th.png'); }
-        .flag-en { background-image: url('https://flagcdn.com/w20/gb.png'); }
-        .flag-cn { background-image: url('https://flagcdn.com/w20/cn.png'); }
-        .flag-kr { background-image: url('https://flagcdn.com/w20/kr.png'); }
-        .flag-icon { width: 20px; height: 15px; background-size: cover; display: inline-block; border-radius: 2px; }
-        .glass-card { background: rgba(255, 255, 255, 0.85); backdrop-filter: blur(10px); border: 1px solid rgba(255, 255, 255, 0.5); box-shadow: 0 10px 30px -10px rgba(30, 58, 95, 0.08); }
-    </style>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body class="bg-minimal-gradient min-h-screen text-brand-dark font-sans antialiased overflow-x-hidden">
 

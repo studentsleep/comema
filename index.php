@@ -42,18 +42,7 @@
             }
         }
     </script>
-    <style>
-        ::-webkit-scrollbar { width: 8px; }
-        ::-webkit-scrollbar-track { background: #F0F6FA; }
-        ::-webkit-scrollbar-thumb { background: #89ABC5; border-radius: 4px; }
-        ::-webkit-scrollbar-thumb:hover { background: #1B3B5A; }
-        .glass-nav { background: rgba(255, 255, 255, 0.95); backdrop-filter: blur(10px); -webkit-backdrop-filter: blur(10px); }
-        .flag-th { background-image: url('https://flagcdn.com/w20/th.png'); }
-        .flag-en { background-image: url('https://flagcdn.com/w20/gb.png'); }
-        .flag-cn { background-image: url('https://flagcdn.com/w20/cn.png'); }
-        .flag-kr { background-image: url('https://flagcdn.com/w20/kr.png'); }
-        .flag-icon { width: 20px; height: 15px; background-size: cover; display: inline-block; border-radius: 2px;}
-    </style>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body class="bg-minimal-gradient text-brand-dark font-sans antialiased overflow-x-hidden">
 

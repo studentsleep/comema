@@ -1,0 +1,59 @@
+/* ========================================
+   Come Ma Massage - Shared Styles
+   ======================================== */
+
+/* Smooth Scrolling */
+html {
+  scroll-behavior: smooth;
+}
+
+/* Custom Scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+}
+::-webkit-scrollbar-track {
+  background: #f0f6fa;
+}
+::-webkit-scrollbar-thumb {
+  background: #89abc5;
+  border-radius: 4px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #1b3b5a;
+}
+
+/* Glass Navigation */
+.glass-nav {
+  background: rgba(255, 255, 255, 0.95);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+}
+
+/* Glass Card (Menu Page) */
+.glass-card {
+  background: rgba(255, 255, 255, 0.85);
+  backdrop-filter: blur(10px);
+  border: 1px solid rgba(255, 255, 255, 0.5);
+  box-shadow: 0 10px 30px -10px rgba(30, 58, 95, 0.08);
+}
+
+/* Flag Icons */
+.flag-icon {
+  width: 20px;
+  height: 15px;
+  background-size: cover;
+  display: inline-block;
+  border-radius: 2px;
+}
+.flag-th {
+  background-image: url("https://flagcdn.com/w20/th.png");
+}
+.flag-en {
+  background-image: url("https://flagcdn.com/w20/gb.png");
+}
+.flag-cn {
+  background-image: url("https://flagcdn.com/w20/cn.png");
+}
+.flag-kr {
+  background-image: url("https://flagcdn.com/w20/kr.png");
+}
